@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>week 2</title>
+    </head>
+    <body>
+        <h1>enhanced HTML Elements</h1>
+        <h2>Definition list</h2>
+        <dl>
+            <dt>US</dt>
+            <dd>United state of America</dd>
+              <dt>UAE</dt>
+            <dd>United Arab Emirates</dd>
+        </dl>
+        <h2>nested lists</h2>
+            <li>cars
+        <ol type = "i">
+            <li>nissan</li>
+            <li>mazda</li>
+            <li>toyota
+                <ol type = "a">
+                    <li>corolla</li>
+                    <li>canry</li>
+                    <li>prius</li>
+                </ol>
+            </li>
+
+        </ol>
+        </li>
+        <li>Motorbikes
+            <ul>
+                <li>Nissan</li>
+                <li>Honda</li>
+                <li>Kowasaki</li>
+            </ul>
+        </li>
+        <h2>multimedia</h2>
+        <h3>images</h3>
+       <img src="https://images.pexels.com/photos/30067568/pexels-photo-30067568.jpeg" alt = "tree picture" width="500" height="400">
+       <h3>audio</h3>
+       <audio controls>
+         <source src = "c:\Users\user\Music\Shaggy - Who a Wear di Jacket.mp3" type = "audio/mpeg">
+       </audio> 
+       <h3>video</h3>
+       <video width = "300" height="300" controls>
+        <source src="https://www.pexels.com/download/video/33647942/" type = "video/mp4" >
+       </video>
+       <h2>html Tables</h2>
+       <table border = "1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Gender</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>john doe</td>
+                <td>russia</td>
+                <td>male</td>
+            </tr>
+           <tr>
+                <td>jane doe</td>
+                <td>america</td>
+                <td>female</td>
+        </tr> 
+        </tbody>
+       </table>
+       <h2>forms</h2>
+       <form action ="...destination" method="how data is transmitted to destination">
+        <label for="name">Name:</label>
+<input type="text" name="username" placeholder="name" maxlenth="10" required>
+<br><br>
+<label for="email">email:</label>
+<input type="email" id="email" name="email" autocomplete>
+<br><br>
+<label for="password">password:</label>
+<input type="password" id="password" name="password">
+<br><br>
+<label for="gender">gender:</label>
+<input type="radio" id="male" name="gender" value="male">
+<input type="radio" id="female" name="gender" value="female">
+<label for="Country">Country:</label>
+<br><br>
+<select id="country" name="country"> 
+    <option value="usa">USA</option>
+    <option value="uae">UAE</option>
+    <option value="russia">Russia</option>
+    </select>
+    </form>
+    </body>
+</html>
