@@ -1,0 +1,43 @@
+body{
+    height=2000px;
+    margin=0;
+}
+
+p{
+    display:inline;
+}
+
+span{
+    display:block;
+}
+
+
+#p-one{
+    display:none;
+}
+
+.fixed-nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color:darkblue;
+    padding:15px;
+    text-align:center;
+}
+
+h2{
+    position:sticky;
+    top:0;
+    background-color:brown;
+    padding:10px;
+    margin:0;
+    z-index:1000;
+}
+section{
+    height:500px;
+    padding:20px;
+}
+.one{background-color:white;}
+.two{background-color:orange;}
+.three{background-color: red;}
