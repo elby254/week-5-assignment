@@ -1,0 +1,52 @@
+h1{
+    color:red;
+}
+
+p{
+    color:yellow;
+}
+
+#header-2{
+    color:blue;
+    text-decoration:underline;
+}
+
+.p-css{
+    color:green;
+    font-size:40px;
+}
+
+*{
+    background-color:gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:30px;
+    font-weight:lighter;
+    text-align:right;
+    text-transform:lowercase;
+    letter-spacing:5px;
+    line-height:1.5;
+}
+
+.box-model{
+    width:600px;
+    height:500px;
+    background-color:pink;
+    margin:20px auto;
+    padding:45px;
+    border:3px solid black;
+}
+
+.box{
+    width:400;
+    height:300;
+    background-color:blueviolet;
+    margin:30px auto;
+    padding:10px;
+    border:3px solid black;
+}
+
+.box p {
+    color:orange;
+    font-size:50px;
+    text-align:center;
+}
