@@ -22,6 +22,12 @@ nav{
     padding: 20px;
 }
 
+.box{
+    background-color:yellow;
+    padding: 20px;
+    text-align:scroll
+}
+
 @media (max-width:768px) {
     .grid{
         grid-template-columns: 1fr;
